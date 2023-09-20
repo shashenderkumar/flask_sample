@@ -1,0 +1,17 @@
+<html>
+    <h2>Results</h2>
+    
+    <body>
+        <div>
+            <p>The Average is {{result}} </p><br>
+            <ul>
+                {# This is a comment section #}
+                {% if result>=50 %}
+                <h1>The output is PASSED! hurray</h1>
+                {% else %}
+                <h1>The output is FAILED! Try next time</h1>
+                {% endif %}
+            </ul>
+        </div>
+    </body>
+</html>
